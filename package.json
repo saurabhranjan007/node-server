@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "db to maintain employee records",
+  "main": "index.js",
+  "scripts": {
+   "start": "node app.js",
+   "devStart": "nodemon app.js"
+  },
+  "author": "Saurabh Ranjan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongodb": "^5.0.1",
+    "mongoose": "^6.9.1"
+  }
+}
